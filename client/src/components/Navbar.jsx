@@ -81,10 +81,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-          {/* <li className="bg-[#2952e3] py-2 px-7 mx-4 rounded-full cursor-pointer hover:bg-[#2546bd]">
-            Login
-          </li> */}
-
+        
         </ul>
         <div className="flex relative">
           {!toggleMenu && (
@@ -95,14 +92,62 @@ const Navbar = () => {
           )}
           {toggleMenu && (
             <ul
-              className="z-10 fixed -top-0 -right-2 p-3 w-[70vw] h-screen shadow-2xl md:hidden list-none
+              className="z-10 fixed -top-0 -right-2 p-3 w-[55vw] h-screen shadow-2xl md:hidden list-none
               flex flex-col justify-start items-end rounded-md blue-glassmorphism text-white animate-slide-in"
             >
               <li className="text-xl w-full my-2"><AiOutlineClose onClick={() => setToggleMenu(false)} /></li>
               {["Market", "Exchange", "Tutorials", "Wallets"].map(
                 (item, index) => <NavBarItem key={item + index} title={item} classprops="my-2 text-lg" />,
               )}
+                <div class="relative inline-block text-left top-2 right-4">
+                <button
+                  class="bg-orange-500 py-2 px-4 rounded"
+                  onClick={() => setShowMenu(!showMenu)}
+                >
+                  {i18n.language}
+                </button>
+                <ul
+                  class={`${showMenu ? 'block' : 'hidden'} dropdown-menu absolute z-10 top-10 right-0 bg-orange-300 rounded shadow w-[85px]`}
+                > 
+                <li>
+                    <button
+                      class="block px-4 py-2 text-sm"
+                      onClick={() => {
+                        changeLanguage('en');
+                        setShowMenu(false);
+                        setLanguage('English');
+                      }}
+                    >
+                      English
+                    </button>
+                  </li>
+                  <li>
+                    <button
+                      class="block px-4 py-2 text-sm"
+                      onClick={() => {
+                        changeLanguage('sk');
+                        setShowMenu(false);
+                        setLanguage('Slovak');
+                      }}
+                    >
+                      Slovak
+                    </button>
+                  </li>
+                  <li>
+                    <button
+                      class="block px-4 py-2 text-sm"
+                      onClick={() => {changeLanguage('ru');
+                      setShowMenu(false);
+                      setLanguage('Russian');
+                      }}
+                    >
+                      Russian
+                    </button>
+                  </li>
+                </ul>
+              </div>
             </ul>
+            
           )}
         </div>
       </nav>
