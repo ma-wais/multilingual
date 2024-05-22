@@ -1,0 +1,59 @@
+{
+    "navbar": {
+      "Market": "Trh",
+      "Exchange": "Burza",
+      "Tutorials": "Tutoriály",
+      "Wallets": "Peňaženky"
+    },
+    "home": {
+        "sendCrypto": "Poslať kryptomenu",
+        "acrossTheWorld": " cez celý svet",
+        "exploreCryptoWorld": "Objavte svet kryptomien. Kryptomenu kupujte a predávajte ľahko na Krypto.",
+        "walletConnected": "Peňaženka pripojená",
+        "connectWallet": "Pripojiť peňaženku",
+        "reliability": "Spoľahlivosť",
+        "security": "Bezpečnosť",
+        "ethereum": "Ethereum",
+        "web3": "Web 3.0",
+        "lowFees": "Nízke poplatky",
+        "blockchain": "Blockchain",
+        "addressTo": "Adresa pre",
+        "amountETH": "Množstvo (ETH)",
+        "keywordGif": "Kľúčové slovo (Gif)",
+        "enterMessage": "Zadajte správu",
+        "sendNow": "Poslať teraz"
+      },
+      "services": {
+        "title": "Služby, ktoré neustále zlepšujeme",
+        "description": "Najlepší výber pre nákup a predaj ваšich kryptomien, s rôznymi super priateľskými službami, ktoré nabízame",
+        "securityGuarantee": "Záruka bezpečnosti",
+        "securityGuaranteeSubtitle": "Bezpečnosť je zaručená. Vždy dbáme na súkromie a kvalitu našich produktov",
+        "bestExchangeRates": "Najlepší výmenné kurzy",
+        "bestExchangeRatesSubtitle": "Bezpečnosť je zaručená. Vždy dbáme na súkromie a kvalitu našich produktov",
+        "fastestTransactions": "Najrýchlejší transakcie",
+        "fastestTransactionsSubtitle": "Bezpečnosť je zaručená. Vždy dbáme na súkromie a kvalitu našich produktov"
+      },
+      "transactions": {
+        "latest": "Najnovšie transakcie",
+        "connect": "Pripojte svoj účet, aby ste zobraziť najnovšie transakcie",
+        "from": "Od",
+        "to": "Do",
+        "amount": "Množstvo",
+        "message": "Správa"
+      },
+      "footer": {
+        "market": "Trh",
+        "exchange": "Burza",
+        "tutorials": "Návody",
+        "wallets": "Peňaženky",
+        "joinUs": "Pridajte sa k nám a počúvajte o neočakávanom zázraku",
+        "email": "info@krypto",
+        "copyright": "@krypto",
+        "allRightsReserved": "Všetky práva vyhradené"
+      },
+    "language": {
+      "English": "Angličtina",
+      "Slovak": "Slovenčina",
+      "Russian": "Ruština"
+    }
+  }

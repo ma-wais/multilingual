@@ -1,0 +1,61 @@
+{
+    "navbar": {
+      "Market": "Market",
+      "Exchange": "Exchange",
+      "Tutorials": "Tutorials",
+      "Wallets": "Wallets"
+    },
+    "home": {
+        "sendCrypto": "Send Crypto",
+        "acrossTheWorld": "across the world",
+        "exploreCryptoWorld": "Explore the crypto world. Buy and sell cryptocurrencies easily on Krypto.",
+        "walletConnected": "Wallet Connected",
+        "connectWallet": "Connect Wallet",
+        "reliability": "Reliability",
+        "security": "Security",
+        "ethereum": "Ethereum",
+        "web3": "Web 3.0",
+        "lowFees": "Low Fees",
+        "blockchain": "Blockchain",
+        "addressTo": "Address To",
+        "amountETH": "Amount (ETH)",
+        "keywordGif": "Keyword (Gif)",
+        "enterMessage": "Enter Message",
+        "sendNow": "Send now"
+      },
+      "services": {
+        "title": "Services that we continue to improve",
+        "description": "The best choice for buying and selling your crypto assets, with the various super friendly services we offer",
+        "securityGuarantee": "Security guarantee",
+        "securityGuaranteeSubtitle": "Security is guaranteed. We always maintain privacy and maintain the quality of our products",
+        "bestExchangeRates": "Best exchange rates",
+        "bestExchangeRatesSubtitle": "Security is guaranteed. We always maintain privacy and maintain the quality of our products",
+        "fastestTransactions": "Fastest transactions",
+        "fastestTransactionsSubtitle": "Security is guaranteed. We always maintain privacy and maintain the quality of our products"
+      },
+      "transactions": {
+        "latest": "Latest Transactions",
+        "connect": "Connect your account to see the latest transactions",
+        "from": "From",
+        "to": "To",
+        "amount": "Amount",
+        "message": "Message"
+      },
+      "footer": {
+        "market": "Market",
+        "exchange": "Exchange",
+        "tutorials": "Tutorials",
+        "wallets": "Wallets",
+        "joinUs": "Come join us and hear for the unexpected miracle",
+        "email": "info@krypto",
+        "copyright": "@krypto",
+        "allRightsReserved": "All rights reserved"
+      },
+    "fallback": "en",
+    "language": {
+      "English": "English",
+      "Slovak": "Slovak",
+      "Russian": "Russian"
+    }
+  }
+  
